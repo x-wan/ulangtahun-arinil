@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+canvas#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.fancy-font {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Optional Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');

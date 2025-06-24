@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selamat Ulang Tahun Sayang</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body class="bg-gradient">
+
+  <!-- Music -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="/Ajeng Febria - Tia Monika (Official Music Video)-yt.savetube.me.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <div class="container text-center py-5 my-5 bg-glass rounded-4 shadow-lg animate__animated animate__fadeIn">
+    <h1 class="display-4 fw-bold mb-3">🎉 Selamat Ulang Tahun yang ke-20 🎉</h1>
+    <h2 class="mb-4 fancy-font">ARINIL HAQ</h2>
+    <img src="/foto.jpg" alt="Foto Arinil dan Kamu" class="rounded-circle border border-4 border-light mb-4 animate__animated animate__zoomIn" style="width: 200px; height: 200px; object-fit: cover;">
+    <p class="lead animate__animated animate__fadeInUp">
+      Semoga di usia yang baru ini, segala hal indah selalu hadir di hidupmu. Terima kasih telah menjadi alasan bahagia, pelipur lara, dan rumah ternyaman. Semoga cinta kita selalu tumbuh dan langgeng. Aku mencintaimu lebih dari kata-kata. ❤️
+    </p>
+
+    <button id="surpriseBtn" class="btn btn-danger mt-4">Klik Pesan Rahasia</button>
+    <div id="secretMessage" class="alert alert-success mt-3 d-none">
+      Kamu adalah anugerah terindah dalam hidupku. Semoga kamu selalu bahagia, dan aku selalu ada untukmu. Happy birthday, sayangku! ❤️🎂
+    </div>
+  </div>
+
+  <canvas id="confetti"></canvas>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
